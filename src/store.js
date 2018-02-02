@@ -47,8 +47,7 @@ class Store {
 const store = new Store();
 export default store;
 
-// OPTIONALS
-
+// Code below are required for localstorage persistance
 // Save in localstorage, it'll be loaded automatically
 const hydrate = create({
   storage: localStorage,
