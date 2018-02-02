@@ -10,11 +10,13 @@ class App extends Component {
       <div>
         <input
           // you can use autobind or arrow functions
+          // checks and adds todo based on key press
           onKeyPress={event => store.addTodo(event)}
         />
         <h3>Todos</h3>
         <ul>
           {store.todos.map((e, i) => (
+            // click on todo removes it
             <li key={e.id} onClick={() => store.removeTodo(e.id)}>
               {e.text}
             </li>
