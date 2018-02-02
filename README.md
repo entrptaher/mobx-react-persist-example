@@ -1,4 +1,4 @@
-# WebpackBin project
+# Sample Persistant TODO
 
 ## Start
 
@@ -7,3 +7,6 @@
 `npm start`
 
 Go to `localhost:3000`
+
+## Preview:
+![Screenshot](https://i.imgur.com/urypRre.png)
